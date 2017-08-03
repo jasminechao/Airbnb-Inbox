@@ -1,0 +1,58 @@
+.inbox {
+  padding-left: 0px;
+  list-style: none;
+}
+.message {
+  font-size: 12px;
+  background: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  margin: 0 20px;
+}
+
+.message:last-child {
+  border:none;
+}
+
+.message-body {
+  flex-grow: 1;
+}
+
+.message-body-grey {
+  color: grey;
+}
+
+.message-weighted {
+  font-weight: bolder;
+}
+
+.message-name {
+  margin: 0 50px 0 25px;
+  width: 120px;
+}
+
+.message-container-grey-border {
+  border-style: solid;
+  border-color: lightgrey;
+  border-width: thin;
+}
+
+.message-status {
+  width: 80px;
+}
+
+.message-status-active {
+  color: green;
+}
+
+.message-status-pending {
+  color: grey;
+}
+
+.message-status-declined {
+  color:red;
+}
+
+
